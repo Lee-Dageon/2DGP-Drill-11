@@ -21,6 +21,7 @@ animation_names = ['Walk']
 class Zombie:
     images = None
 
+
     def load_images(self):
         if Zombie.images == None:
             Zombie.images = {}
